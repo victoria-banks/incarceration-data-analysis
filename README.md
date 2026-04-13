@@ -69,3 +69,5 @@ The goal is to understand how incarceration rates have changed over time and how
 ---
 
 ##  Project Structure
+incarceration-data-analysis|main.py|incarceration.csv|disenfranchisement_data.csv
+ images/| incarceration.png|disenfranchisement.png|presentation.pdf|README.md
