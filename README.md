@@ -68,6 +68,49 @@ The goal is to understand how incarceration rates have changed over time and how
 
 ---
 
-##  Project Structure
-incarceration-data-analysis|main.py|incarceration.csv|disenfranchisement_data.csv
- images/| incarceration.png|disenfranchisement.png|presentation.pdf|README.md
+## Project Structure
+
+```text
+incarceration-data-analysis/
+├── main.py
+├── incarceration.csv
+├── disenfranchisement_data.csv
+├── images/
+│   ├── incarceration.png
+│   └── disenfranchisement.png
+├── presentation.pdf
+└── README.md
+```
+
+## How to Run
+
+```bash
+pip install pandas matplotlib
+python main.py
+
+Data Sources
+U.S. Census Bureau
+Bureau of Justice Statistics
+Prison Policy Initiative
+National Institutes of Health (NIH)
+
+Interpretation
+The data reveals consistent disparities in incarceration and disenfranchisement across racial groups.
+While incarceration rates have declined overall, the gap between groups remains significant. The disenfranchisement data also shows unequal impacts across racial groups.
+This project focuses on identifying and visualizing those differences through data.
+
+Skills Demonstrated
+Data analysis with Python
+Data visualization with matplotlib
+Working with CSV datasets
+Interpreting social data patterns
+Communicating results clearly
+
+Future Improvements
+Add more recent data
+Include more demographic groups
+Create interactive visualizations
+Expand the project with additional statistical analysis
+
+Acknowledgments
+This project uses publicly available datasets and open-source tools.
